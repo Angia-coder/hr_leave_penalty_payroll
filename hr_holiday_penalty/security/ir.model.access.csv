@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_leave_employee,hr.leave.employee,model_hr_leave,hr_holidays.group_hr_holidays_user,1,1,1,0
+access_hr_leave_manager,hr.leave.manager,model_hr_leave,hr_holidays.group_hr_holidays_manager,1,1,1,1
+access_hr_payslip_employee,hr.payslip.employee,model_hr_payslip,hr_payroll.group_hr_payroll_employee,1,0,0,0
+access_hr_payslip_manager,hr.payslip.manager,model_hr_payslip,hr_payroll.group_hr_payroll_manager,1,1,1,1
+access_res_config_settings,res.config.settings,model_res_config_settings,base.group_system,1,1,1,1
